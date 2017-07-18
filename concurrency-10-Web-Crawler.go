@@ -65,7 +65,7 @@ func Crawl(url string, depth int, fetcher Fetcher) {
 	
 	return
 }
-var ch chan string
+
 var wg sync.WaitGroup
 func main() {
 	wg.Add(1)
